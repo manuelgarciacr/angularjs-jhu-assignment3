@@ -5,6 +5,33 @@ input[type="text"] {
   width: 200px;
   float: left;
 }
+found-items ol {
+    clear: both; 
+}
+found-items ol li>div {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+found-items ol p {
+    display: inline-block;
+    vertical-align: top;
+}
+found-items ol p span{
+    background-color: lightgray;
+}
+found-items ol button {
+    flex-shrink: 0;
+    height: 2em;
+}
+found-items .error {
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+found-items .error.cls-block {
+    display: block;
+}
 .narrow-button {
   float: left;
   margin-left: 10px;
